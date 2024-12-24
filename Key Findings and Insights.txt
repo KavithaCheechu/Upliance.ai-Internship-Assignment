@@ -1,0 +1,46 @@
+### Key Findings and Insights  
+
+After performing a detailed analysis of the provided datasets, here are my summarized insights:
+
+#### Data Overview
+- The analysis was based on three interconnected datasets: **UserDetails**, **CookingSessions**, and **OrderDetails**, each having clear Primary and Foreign Key relationships:
+  - `User ID` connects **UserDetails** and **CookingSessions**.
+  - `Session ID` connects **CookingSessions** and **OrderDetails**.
+  - `User ID` connects **UserDetails** and **OrderDetails**.
+- Minimal data cleaning was required, as the datasets had very few null values. Only two rows under `Rating` were null, attributed to canceled orders, and were excluded as they didn’t impact the study.
+
+---
+
+#### Key Insights from Analysis  
+
+1. **User Preferences and Behavior**:
+   - **Favorite Meal**: Dinner emerged as the most preferred meal among users.
+   - **Top Users**: Users `u001`, `u002`, and `u003` showed the highest engagement, placing the most orders and attending the most cooking sessions.
+
+2. **Dish Popularity**:
+   - The top two dishes were **Spaghetti** and **Grilled Chicken**, consistently preferred across all locations.
+   - These dishes can be considered for promotional offers to boost engagement further.
+
+3. **Order Patterns**:
+   - **Order Timing**: Most orders were placed at night, suggesting this is a key window for user engagement.
+   - **Cancellations**: Only one user (`u003`) canceled their order twice, indicating cancellations are rare and user satisfaction appears high.
+
+4. **Top Performing Locations**:
+   - The highest number of orders were from **New York**, **Los Angeles**, and **Chicago**. These cities represent strong markets for business expansion or targeted campaigns.
+
+---
+
+#### Business Recommendations  
+
+1. **Leverage Popular Dishes**:
+   - Introduce meal bundles or discounts centered around **Spaghetti** and **Grilled Chicken** to capitalize on their popularity.  
+
+2. **Focus on Prime Ordering Times**:
+   - Plan targeted marketing campaigns and notifications during nighttime hours to maximize order conversions.
+
+3. **Engage Top Customers**:
+   - Build loyalty programs for high-engagement users like `u001`, `u002`, and `u003`, rewarding them for their consistent participation.
+
+4. **Expand in High-Sales Locations**:
+   - Focus promotional efforts in **New York**, **Los Angeles**, and **Chicago**, as these cities represent significant revenue potential.
+
